@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     	}
 
     //zadanie 3
-    	var menu=document.querySelector('.nav-list');
+    	var menu=document.querySelector('.navbar');
     	console.log(menu);
     		window.addEventListener('scroll',function() {
     		menu.style.borderBottom='1px solid #7f7f7f';
