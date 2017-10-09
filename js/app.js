@@ -35,6 +35,13 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(buttons[0]);
         buttons[i].addEventListener('click', showHide);
     	}
+
+    //zadanie 3
+    	var menu=document.querySelector('.nav-list');
+    	console.log(menu);
+    		window.addEventListener('scroll',function() {
+    		menu.style.borderBottom='1px solid #7f7f7f';
+    	});
     });
 
 
